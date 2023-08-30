@@ -12,7 +12,7 @@ function ReservationAndOrder(props) {
                     <br />
                     주문 내역을 확인해보세요.
                 </div>
-                <a href="">
+                <a href="https://nid.naver.com/nidlogin.login?svctype=262144&locale=ko_KR&url=https%3A%2F%2Fm.booking.naver.com%2Fmy%2Fbookings%3Ffrom%3Dmyp&area=bbt">
                     <SiNaver/>
                     네이버 로그인
                 </a>

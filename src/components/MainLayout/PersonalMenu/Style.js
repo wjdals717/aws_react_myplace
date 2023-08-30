@@ -36,10 +36,16 @@ export const SImgBox = css`
 `;
 
 export const SLoginBox = css`
-    font-size: 16px;
+    font-size: 18px;
+
     span {
         margin-right: 5px;
         color: #ffffff;
+    }
+
+    svg {
+        margin: 9px 0 0 5px;
+        fill: #fff;
     }
 `;
 

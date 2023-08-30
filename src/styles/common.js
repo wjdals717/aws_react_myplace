@@ -4,6 +4,7 @@ export const GSCommon = css`
     *{
         box-sizing: border-box;
         font-family: -apple-system,BlinkMacSystemFont,helvetica,Apple SD Gothic Neo,sans-serif;
+        letter-spacing: -1px;
     }
 
     div {
@@ -29,4 +30,7 @@ export const GSCommon = css`
         font-size: 16px;
     }
 
+    a {
+        text-decoration: none;
+    }
 `;

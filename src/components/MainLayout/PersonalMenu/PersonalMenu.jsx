@@ -1,6 +1,7 @@
 /** @jsxImportSource @emotion/react */
 import * as S from "./Style";
 import React from 'react';
+import * as M from "./Modal";
 import { BsChevronRight } from "react-icons/bs";
 import { PiPencilSimpleLineFill } from "react-icons/pi";
 import { LiaCheckCircle } from "react-icons/lia";
@@ -15,7 +16,7 @@ function PersonalMenu(props) {
                     </div>
                     <div css={S.SLoginBox}>
                         <span>로그인하기</span>
-                        <BsChevronRight size={10} color="#ffffff"/>
+                        <BsChevronRight size={10}/>
                     </div>
                 </button>
                 <div css={S.SOptionBox}>
@@ -25,6 +26,7 @@ function PersonalMenu(props) {
                     </div>
                 </div>
             </div>
+            {/* <div css={M.Modal} className='invisible'></div> */}
         </div>
     );
 }
