@@ -116,9 +116,8 @@ function PostList(props) {
                     </div>
                     <button css={S.SImgContainer}>
                         <div css={S.SImgBox}>
-                            <div></div>
+                            <div className="first-imgBox"></div>
                             <div css={S.SSecondImgBox}>
-                                <div></div>
                                 <div></div>
                             </div>
                         </div>
